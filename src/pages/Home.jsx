@@ -21,7 +21,7 @@ const Home = () => {
 
     // Get Products Data
     const fetchData = () => {
-        axios.get('http://localhost:3001/Books')
+        axios.get(base_url)
             .then(response => {
                 setProducts(response.data);
             })
