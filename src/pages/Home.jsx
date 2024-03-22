@@ -42,6 +42,12 @@ const Home = () => {
 
         let result = await axios.post(base_url, obj)
         setProducts([...products, result.data])
+
+        name.current.value = '';
+        price.current.value = '';
+        Pimage.current.value = '';
+        Author.current.value = '';
+        description.current.value = '';
     }
 
     // Delete Product
@@ -81,9 +87,7 @@ const Home = () => {
 
     //  Updating Shorted Products
     const sortedProducts = [...products].sort((a, b) => {
-        if (sortBy === 'price') {
-            return a.price - b.price;
-        } else if (sortBy === 'name') {
+        if (sortBy === 'name') {
             return a.name.localeCompare(b.name);
         }
         return 0;
@@ -139,7 +143,7 @@ const Home = () => {
                             return (
                                 <>
                                     <tr>
-                                        <th scope="row" style={{width:"60px", height:"60px"}}><img width={80}src={product.Pimage} alt="Loding...." /></th>
+                                        <th scope="row" style={{ width: "60px", height: "60px" }}><img width={80} src={product.Pimage} alt="Loding...." /></th>
                                         <td>{product.name}</td>
                                         <td>{product.Author}</td>
                                         <td>{product.description}</td>
