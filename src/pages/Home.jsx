@@ -79,11 +79,6 @@ const Home = () => {
         setSearchTerm(event.target.value);
     };
 
-    // Sorting products 
-    const handleSort = (event) => {
-        setSortBy(event.target.value);
-    };
-
     //  Updating Shorted Products
     const sortedProducts = [...products].sort((a, b) => {
         if (sortBy === 'price') {
@@ -103,9 +98,9 @@ const Home = () => {
     return (
         <>
             <div className='inputfields row col-12 mb-5'>
-                <div class="card col-6" style={{ width: "18" }}>
+                <div class="card col-9" style={{ width: "18" }}>
                     <div class="card-body">
-                        <h1>Add products</h1>
+                        <h2>Add products</h2>
                         <input type="text" placeholder='Book Name' ref={name} />
                         <input type="text" placeholder='Product Image Url' ref={Pimage} />
                         <input type="text" placeholder='Author Name' ref={Author} />
@@ -114,20 +109,16 @@ const Home = () => {
                         <button className='btn btn-info' onClick={addProduct} style={{ width: "100%" }}>Add</button>
                     </div>
                 </div>
-                <div class="card col-6" style={{ width: "18" }}>
+                <div class="card col-3" style={{ width: "18" }}>
                     <div class="card-body">
 
-                        <h1>Product Dashboard</h1>
+                        <h4>Product Dashboard</h4>
                         <input
                             type="text"
                             placeholder="Search by name or price..."
                             value={searchTerm}
                             onChange={handleSearch}
                         />
-                        <select onChange={handleSort} value={sortBy}>
-                            <option value="name">Sort by Name</option>
-                            <option value="price">Sort by Price</option>
-                        </select>
                     </div>
                 </div>
             </div> <table class="table table-bordered text-center">
@@ -168,7 +159,10 @@ const Home = () => {
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
+                                                    <input type="text" value={update.Pimage} placeholder='Price' name='Pimage' onChange={updateHandler} />
                                                     <input type="text" value={update.name} placeholder='Product Name' name='name' onChange={updateHandler} />
+                                                    <input type="text" value={update.Author} placeholder='Price' name='Author' onChange={updateHandler} />
+                                                    <input type="text" value={update.description} placeholder='Price' name='desc' onChange={updateHandler} />
                                                     <input type="text" value={update.price} placeholder='Price' name='price' onChange={updateHandler} />
                                                 </div>
                                                 <div class="modal-footer">

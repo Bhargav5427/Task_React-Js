@@ -7,6 +7,30 @@
       "Pimage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSpqqf3NINBTGjVBHrOmQurhOMWz91Lod5QuJbbpszR0XwADvUrYOFwH1D5BRY5CP6UQYbadaQSp-jZQ3Io_3kcUCn5dFnpsyzFcjbkK3_Yx6zNmK5adBSK3Q&usqp=CAE",
       "Author": "Lorem",
       "description": "Ikigai translates as ‘a reason to live’ or ‘a reason to jump out of bed in the morning’. It’s the place where your needs, desires, ambitions, and satisfaction meet: a point of perfect balance, and perfect fulfilment. On the Japanese island of Okinawa, people live longer than ...More"
+    },
+    {
+      "id": "1e19",
+      "name": "BUILD DON'T TALK",
+      "price": "230",
+      "Pimage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSYGxRaZmdGo0HMSHUe2UBpyLAWg0-Qr9yycqKOo0GVo_mUtn85IXVuAS620k9uay_nXfpkjojb_Mm1nfqXN_mfp8ZgWQqZarmXvtLSSVp9dBFKn8bZLTWRlQ&usqp=CAE",
+      "Author": "Jhon deo",
+      "description": "School taught us specific subjects, like maths and history. Your school taught you how to run in the race; it didnt teach you how to win. And that's what this book is for. To ..."
+    },
+    {
+      "id": "0fe7",
+      "name": "IT ENDS WITH US",
+      "price": "223",
+      "Pimage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT3yRFcprRj7VwNBTloHp_UtamD1aidNpP4J-Fma8i2W39tDrisETol4r7Xb_gk_ZG6ndyAShF37NQ5LASATiKJJv10K1UjcTUXwAenLkYS&usqp=CAE",
+      "Author": "Lorem",
+      "description": "Lily hasn't always had it easy, thats never stopped her from working hard for the life she wants. She's corne a long way from the small town in Maine where she grew up ..."
+    },
+    {
+      "id": "751c",
+      "name": "Verity ",
+      "price": "450",
+      "Pimage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTYmEZ5_K411WHwnZcoSp20FoUJEIw75C9ztIozBjU59fv1-1jcyYeTb8bY2-qZXPp2SuoFOo5b2J-7888vRSnAC-f519aRHgLeAOH2MDMVMxFaqZRFBsu7ng&usqp=CAE",
+      "Author": "Colleen Hoover",
+      "description": "Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity ..."
     }
   ]
 }
